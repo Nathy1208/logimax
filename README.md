@@ -176,20 +176,18 @@ Se a condição for verdadeira, o veículo recebe o aviso **⚠️ “Precisa de
 **Diagrama de Casos de Uso**
 
 ```mermaid
-usecaseDiagram
-    actor Gestor as "Gestor de Frota"
-    actor Motorista as "Motorista"
+flowchart TD
+    A[Gestor de Frota] --> B(Cadastrar Veículo)
+    A --> C(Cadastrar Motorista)
+    A --> D(Criar Viagem)
+    A --> E(Visualizar Viagens)
+    A --> F(Registrar Manutenção)
+    A --> G(Verificar Alertas)
 
-    Gestor --> (Cadastrar Veículo)
-    Gestor --> (Cadastrar Motorista)
-    Gestor --> (Criar Viagem)
-    Gestor --> (Visualizar Viagens)
-    Gestor --> (Registrar Manutenção)
-    Gestor --> (Verificar Alertas)
+    H[Motorista] --> I(Visualizar Viagens Atribuídas)
+    H --> J(Atualizar Quilometragem)
+    H --> K(Finalizar Viagem)
 
-    Motorista --> (Visualizar Viagens Atribuídas)
-    Motorista --> (Atualizar Quilometragem)
-    Motorista --> (Finalizar Viagem)
 ```
 
 **Diagrama de Classe**
@@ -235,7 +233,7 @@ classDiagram
 
 **Projeto desenvolvido por:**
 
-👩‍💻 *Nathaly Smanioto* 
+👩‍💻 *Nathaly Maria Gallante Smanioto* 
 
 ---
 
