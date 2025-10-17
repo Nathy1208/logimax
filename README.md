@@ -225,7 +225,7 @@ classDiagram
 ## 📝 Prototipagem
 
 - Link Figma: 
-  - [Link](https://www.figma.com/design/J5liaOG3JFRDAc9P3WUh1c/Sem-t%C3%ADtulo?node-id=0-1&t=mtF5uc5PkeNIssD7-1)
+  - [Clique aqui para acessar!!](https://www.figma.com/design/J5liaOG3JFRDAc9P3WUh1c/Sem-t%C3%ADtulo?node-id=0-1&t=mtF5uc5PkeNIssD7-1)
 
 ---
 
